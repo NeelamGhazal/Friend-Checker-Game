@@ -22,9 +22,9 @@ function askAnotherName(): void {
         if (answer.trim().toLowerCase() === 'y') {
             playFriendCheckerGame();
         } else {
-            console.log(chalk.cyanBright.bold("\t\t\t➖➖➖➖➖➖➖➖"));
-            console.log(chalk.cyanBright.bold("\t\t\t 🌟 Good Bye 🌟"));
-            console.log(chalk.cyanBright.bold("\t\t\t➖➖➖➖➖➖➖➖"));
+            console.log(chalk.cyanBright.bold("\t\t\t   ➖➖➖➖➖➖➖➖"));
+            console.log(chalk.cyanBright.bold("\t\t\t    🌟 Good Bye 🌟"));
+            console.log(chalk.cyanBright.bold("\t\t\t   ➖➖➖➖➖➖➖➖"));
             rl.close();
         }
     });
