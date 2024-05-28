@@ -7,9 +7,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-console.log(chalk.cyanBright.bold("\t\t\t➖➖➖➖➖➖➖➖➖➖➖➖"));
-console.log(chalk.cyanBright.bold("\t\t\t🌟 Friend Checker Game 🌟"));
-console.log(chalk.cyanBright.bold("\t\t\t➖➖➖➖➖➖➖➖➖➖➖➖"));
+console.log(chalk.cyanBright.bold("\t\t\t➖➖➖➖➖➖➖➖➖➖➖"));
+console.log(chalk.cyanBright.bold("\t\t\t  Friend Checker Game "));
+console.log(chalk.cyanBright.bold("\t\t\t➖➖➖➖➖➖➖➖➖➖➖"));
 
 const friendsList: string[] = ["Aina", "Anabiya", "Haya", "Hashir", "Salar", "Usman"];
 
@@ -22,9 +22,9 @@ function askAnotherName(): void {
         if (answer.trim().toLowerCase() === 'y') {
             playFriendCheckerGame();
         } else {
-            console.log(chalk.cyanBright.bold("\t\t\t   ➖➖➖➖➖➖➖➖"));
-            console.log(chalk.cyanBright.bold("\t\t\t    🌟 Good Bye 🌟"));
-            console.log(chalk.cyanBright.bold("\t\t\t   ➖➖➖➖➖➖➖➖"));
+            console.log(chalk.cyanBright.bold("\n\t\t\t   ➖➖➖➖➖➖"));
+            console.log(chalk.cyanBright.bold("\t\t\t     Good Bye "));
+            console.log(chalk.cyanBright.bold("\t\t\t   ➖➖➖➖➖➖"));
             rl.close();
         }
     });
